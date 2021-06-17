@@ -1,0 +1,39 @@
+/* body{
+    background-color: black;
+    color: white; */
+/* } */
+.main{
+    text-align: center;
+    font-size: 80px;
+}
+.html{
+    /* display: inline; */
+    /* justify-content: space-between; */
+    margin: 10px 10px 10px 10px;
+    text-decoration: none;
+    font-size: 50px;
+    position: relative;
+    padding: 15px 30px;
+    text-decoration: none;
+    overflow: hidden;
+    display: inline-block;
+    transition: 0.2s;
+    background-color: black;
+    color: white;
+    border: none;
+    letter-spacing: 4px;
+
+}
+@media only screen and (max-width: 600px) {
+    .main{
+        text-align: center;
+         font-size: 20px ;
+               
+    }
+}
+.html:hover{
+    color: #255784;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3 , 0 0 20px #2196f3 , 0 0 30px #2196f3;
+    border: none;
+}
